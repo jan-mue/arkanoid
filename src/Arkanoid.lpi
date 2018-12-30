@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Arkanoid"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="LazOpenGLContext"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="Arkanoid.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Arkanoid"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="balls.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="balls"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="movers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="movers"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="bats.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="bats"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="blocks.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="blocks"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="counters.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="counters"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="falling.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="falling"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="root.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="root"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="menu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="menu"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="main"/>
+      </Unit9>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="Arkanoid"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../lib/Imaging/Source"/>
+      <Libraries Value="../lib/Imaging/Extras/Extensions/J2KObjects"/>
+      <OtherUnitFiles Value="../lib/Imaging/Source;../lib/Imaging/Source/JpegLib;../lib/Imaging/Source/ZLib;../lib/Imaging/Source/Projects;../lib/Imaging/Source/Extensions;../lib/Imaging/Source/Wrappers;../lib/Imaging/Demos/ObjectPascal/Common;../lib/Imaging/Extras/Extensions;../lib/Imaging/Extras/Extensions/J2KObjects;../lib/Imaging/Extras/Extensions/LibTiff"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
